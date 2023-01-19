@@ -1,0 +1,507 @@
+@charset "UTF-8";
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, img, small, strong, b, dl, dt, dd, ol, ul, li,
+form, label, legend, table, tbody, tfoot, thead, tr, th, td, footer, header, menu, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: bottom;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  -webkit-text-size-adjust: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+img {
+  width: 100%;
+}
+
+table {
+  border-spacing: 0;
+}
+
+input[type="text"],
+input[type="tel"] {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  background: none;
+}
+
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  resize: none;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+button,
+input[type="submit"],
+input[type="button"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* ===================================================================================
+  resetここまで
+=================================================================================== */
+body {
+  color: #000;
+  font-size: 2.4vw;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  line-height: 1;
+}
+
+.btn_area {
+  position: relative;
+}
+
+.fv_area .cta_area {
+  width: 74.66667vw;
+  margin: 0 auto;
+  position: absolute;
+  top: 40.93333vw;
+  left: 0;
+  right: 0;
+}
+
+.fv_area .cta_area li {
+  -webkit-filter: drop-shadow(1.06667vw 1.06667vw 1.33333vw rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(1.06667vw 1.06667vw 1.33333vw rgba(0, 0, 0, 0.2));
+}
+
+.fv_area .cta_area li:first-child {
+  margin-bottom: 4.66667vw;
+}
+
+.flow_area .cta_area {
+  width: 74.66667vw;
+  margin: 0 auto;
+  position: absolute;
+  top: 122.66667vw;
+  left: 0;
+  right: 0;
+}
+
+.flow_area .cta_area li {
+  -webkit-filter: drop-shadow(1.06667vw 1.06667vw 1.33333vw rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(1.06667vw 1.06667vw 1.33333vw rgba(0, 0, 0, 0.2));
+}
+
+.flow_area .cta_area li:first-child {
+  margin-bottom: 4.66667vw;
+}
+
+.price_area {
+  background: url("../img/bg_price.jpg") no-repeat top center;
+}
+
+.price_area .plan_slider {
+  width: 84vw;
+  margin: 0 auto;
+}
+
+.price_area .plan_slider .slick-prev,
+.price_area .plan_slider .slick-next {
+  width: 3.06667vw;
+  height: 10.26667vw;
+}
+
+.price_area .plan_slider .slick-prev:before,
+.price_area .plan_slider .slick-next:before {
+  display: block;
+  content: "";
+  width: 3.06667vw;
+  height: 10.26667vw;
+  opacity: 1;
+}
+
+.price_area .plan_slider .slick-prev:hover:before, .price_area .plan_slider .slick-prev:focus:before,
+.price_area .plan_slider .slick-next:hover:before,
+.price_area .plan_slider .slick-next:focus:before {
+  opacity: 1;
+}
+
+.price_area .plan_slider .slick-prev {
+  left: -5.6vw;
+}
+
+.price_area .plan_slider .slick-prev:before {
+  background: url(../img/slide_arrow_l.png) no-repeat center/100%;
+}
+
+.price_area .plan_slider .slick-next {
+  right: -5.6vw;
+}
+
+.price_area .plan_slider .slick-next:before {
+  background: url(../img/slide_arrow_r.png) no-repeat center/100%;
+}
+
+.price_area .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.price_area .slick-dots {
+  bottom: -9.33333vw;
+}
+
+.price_area .slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 2.66667vw;
+  width: 2.66667vw;
+  margin: 0 4.93333vw;
+  cursor: pointer;
+}
+
+.price_area .slick-dots li button {
+  height: 2.66667vw;
+  width: 2.66667vw;
+  padding: 0;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.price_area .slick-dots li button:before {
+  content: "";
+  width: 2.66667vw;
+  height: 2.66667vw;
+  border: solid 0.4vw #1A1A1A;
+  border-radius: 50%;
+  opacity: 1;
+  background: transparent;
+}
+
+.price_area .slick-dots li.slick-active button:before {
+  opacity: 1;
+  background: #1A1A1A;
+}
+
+.form_area form .formTable_area {
+  width: 92vw;
+  margin: 0 auto;
+  padding: 8vw 0 12vw;
+  background: #FCF5C7;
+  border-radius: 4vw;
+}
+
+.form_area form .formTable_area .formTable {
+  width: 77.33333vw;
+  margin: 0 auto;
+}
+
+.form_area form .formTable_area .formTable th, .form_area form .formTable_area .formTable td {
+  display: block;
+}
+
+.form_area form .formTable_area .formTable th {
+  font-size: 4vw;
+  text-align: left;
+  letter-spacing: 0.13333vw;
+  padding-top: 2.93333vw;
+  padding-bottom: 3.33333vw;
+}
+
+.form_area form .formTable_area .formTable th.req::after {
+  content: "※";
+  color: #E95513;
+  font-size: 2.93333vw;
+  vertical-align: 0.66667vw;
+}
+
+.form_area form .formTable_area .formTable td {
+  padding-bottom: 2.93333vw;
+}
+
+.form_area form .formTable_area .formTable td input[type="text"],
+.form_area form .formTable_area .formTable td input[type="tel"] {
+  font-size: 3.73333vw;
+  line-height: 10.66667vw;
+  width: 77.33333vw;
+  padding: 0 4vw;
+  background: #fff;
+  border-radius: 1.06667vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form_area form .formTable_area .formTable td textarea {
+  width: 77.33333vw;
+  height: 46.66667vw;
+  padding: 4vw;
+  background: #fff;
+  border-radius: 1.06667vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form_area form .formTable_area .formTable td input[type="radio"] {
+  display: none;
+}
+
+.form_area form .formTable_area .formTable td input[type="radio"] + label {
+  font-size: 3.73333vw;
+  line-height: 4.26667vw;
+  position: relative;
+  padding-left: 6.66667vw;
+  margin-right: 6vw;
+  cursor: pointer;
+}
+
+.form_area form .formTable_area .formTable td input[type="radio"] + label::before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 3.73333vw;
+  height: 3.73333vw;
+  margin-top: -2.13333vw;
+  border-radius: 50%;
+  background: #fff;
+  border: 0.26667vw solid #ccc;
+  left: 0;
+  top: 50%;
+}
+
+.form_area form .formTable_area .formTable td input[type="radio"] + label::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 2.66667vw;
+  height: 2.66667vw;
+  margin-top: -1.33333vw;
+  border-radius: 50%;
+  background: #666;
+  left: 0.8vw;
+  top: 50%;
+  opacity: 0;
+}
+
+.form_area form .formTable_area .formTable td input[type="radio"]:checked + label::after {
+  opacity: 1;
+}
+
+.form_area form .formTable_area .formTable td input[type="checkbox"] {
+  display: none;
+}
+
+.form_area form .formTable_area .formTable td input[type="checkbox"] + label {
+  display: inline-block;
+  font-size: 3.73333vw;
+  line-height: 4.26667vw;
+  position: relative;
+  padding-left: 6.66667vw;
+  margin-right: 3.33333vw;
+  cursor: pointer;
+}
+
+.form_area form .formTable_area .formTable td input[type="checkbox"] + label.last {
+  margin-right: 0;
+}
+
+.form_area form .formTable_area .formTable td input[type="checkbox"] + label.check01_l {
+  margin-bottom: 3.33333vw;
+}
+
+.form_area form .formTable_area .formTable td input[type="checkbox"] + label::before {
+  content: '';
+  display: block;
+  width: 3.73333vw;
+  height: 3.73333vw;
+  border-radius: 50%;
+  background: #fff;
+  border-radius: 0.26667vw;
+  border: 0.26667vw solid #ccc;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.form_area form .formTable_area .formTable td input[type="checkbox"]:checked + label::after {
+  content: '';
+  display: block;
+  border-right: 0.26667vw solid #666;
+  border-bottom: 0.26667vw solid #666;
+  width: 1.06667vw;
+  height: 2vw;
+  position: absolute;
+  top: 0.66667vw;
+  left: 1.33333vw;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.form_area form .form_btn01 {
+  text-align: center;
+  margin: 50px 0 100px;
+}
+
+.form_area form .form_btn01 input[type="submit"] {
+  width: 62.66667vw;
+  height: 13.33333vw;
+  background: url(../img/btn_form01.png) no-repeat center/100%;
+  cursor: pointer;
+}
+
+.form_area form .form_btn01 input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.form_area .form_text {
+  font-size: 3.73333vw;
+  text-align: center;
+  line-height: 1.78;
+}
+
+.form_area .form_btn03 {
+  width: 64vw;
+  height: 13.33333vw;
+  margin: 9.33333vw auto 13.33333vw;
+}
+
+.form_area.conf .formTable_area {
+  width: 92vw;
+  margin: 0 auto;
+  padding: 8vw 0 12vw;
+  background: #FCF5C7;
+  border-radius: 4vw;
+}
+
+.form_area.conf .formTable_area .formTable th, .form_area.conf .formTable_area .formTable td {
+  font-size: 3.73333vw;
+  letter-spacing: 0.13333vw;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.form_area.conf .formTable_area .formTable th {
+  font-size: 4vw;
+  text-align: left;
+  vertical-align: middle;
+  margin-bottom: 3.33333vw;
+}
+
+.form_area.conf .formTable_area .formTable tr:nth-of-type(1) th::after,
+.form_area.conf .formTable_area .formTable tr:nth-of-type(2) th::after,
+.form_area.conf .formTable_area .formTable tr:nth-of-type(4) th::after,
+.form_area.conf .formTable_area .formTable tr:nth-of-type(5) th::after,
+.form_area.conf .formTable_area .formTable tr:nth-of-type(8) th::after {
+  content: "※";
+  color: #E95513;
+  font-size: 2.93333vw;
+  vertical-align: 0.66667vw;
+}
+
+.form_area.conf .formTable_area .formTable td {
+  font-size: 3.73333vw;
+  margin-bottom: 6.66667vw;
+  padding-bottom: 4vw;
+  border-bottom: solid 0.26667vw #fff;
+}
+
+.form_area.conf .formTable_area .formTable tr:last-of-type td {
+  border-bottom: none;
+}
+
+.form_area.conf .form_btn02 {
+  text-align: center;
+  margin: 8vw 0 13.33333vw;
+}
+
+.form_area.conf .form_btn02 input[type="submit"] {
+  width: 66.66667vw;
+  height: 13.33333vw;
+  background: url(../img/btn_form02.png) no-repeat center/100%;
+  cursor: pointer;
+}
+
+.form_area.conf .form_btn02 input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.form_area.conf .err {
+  width: 92vw;
+  margin: 0 auto;
+  padding: 8vw 0;
+  background: #FCF5C7;
+  border-radius: 4vw;
+}
+
+.form_area.conf .err h4 {
+  font-size: 3.46667vw;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 4vw;
+}
+
+.form_area.conf .err .error_messe {
+  font-size: 2.66667vw;
+  text-align: center;
+  margin-bottom: 2.66667vw;
+}
+
+.form_area.conf .err .btn_err {
+  text-align: center;
+  margin: 6.66667vw 0;
+}
+
+.form_area.conf .err .btn_err input[type="button"] {
+  width: 66.66667vw;
+  height: 13.33333vw;
+  background: url(../img/btn_err.png) no-repeat center/100%;
+  cursor: pointer;
+}
+
+.form_area.conf .err .btn_err input[type="button"]:hover {
+  opacity: 0.8;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 6.66667vw 0;
+  background-color: #2b2b2b;
+}
+
+footer h2 {
+  width: 26.66667vw;
+  margin: 0 auto 4vw;
+}
+
+footer h2 img {
+  width: 100%;
+}
+
+footer .link a {
+  color: #fff;
+  font-size: 2.66667vw;
+}
+/*# sourceMappingURL=style.css.map */
